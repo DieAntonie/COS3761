@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace cos3761
+namespace COS3761
 {
     class Program
     {
