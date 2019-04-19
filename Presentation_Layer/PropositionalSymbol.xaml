@@ -1,0 +1,15 @@
+﻿<UserControl x:Class="Presentation_Layer.PropositionalSymbol"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Presentation_Layer"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid Height="25" Width="340">
+        <TextBox Name="SymbolTextBox" Text="" HorizontalAlignment="Left" VerticalAlignment="Center" Width="25"/>
+        <TextBox Name="MeaningTextBox" Text="" HorizontalAlignment="Left" VerticalAlignment="Center" Width="200" Margin="30,0"/>
+        <Button  Name="AddEditButton" Content="Add/Edit" HorizontalAlignment="Right" VerticalAlignment="Center" Width="50" Margin="55,0" Click="AddEditButton_Click"/>
+        <Button  Name="RemoveButton" Content="Remove" HorizontalAlignment="Right" VerticalAlignment="Center" Width="50" Click="RemoveButton_Click"/>
+    </Grid>
+</UserControl>

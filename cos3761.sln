@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.168
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.202
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "COS3761", "cos3761\COS3761.csproj", "{F8DA5071-7552-4C5A-A9CE-47B0286CB2B5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormalLogic", "Presentation_Layer\FormalLogic.csproj", "{FB12FB48-40F8-4951-946F-C8CAACD27DC8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F8DA5071-7552-4C5A-A9CE-47B0286CB2B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F8DA5071-7552-4C5A-A9CE-47B0286CB2B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F8DA5071-7552-4C5A-A9CE-47B0286CB2B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F8DA5071-7552-4C5A-A9CE-47B0286CB2B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB12FB48-40F8-4951-946F-C8CAACD27DC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB12FB48-40F8-4951-946F-C8CAACD27DC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB12FB48-40F8-4951-946F-C8CAACD27DC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB12FB48-40F8-4951-946F-C8CAACD27DC8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
