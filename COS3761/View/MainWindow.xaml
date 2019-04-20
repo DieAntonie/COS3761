@@ -8,20 +8,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid x:Name="MainLayout">
-        <TabControl x:Name="TabControl" HorizontalAlignment="Left" Height="399" Margin="10,10,0,0" VerticalAlignment="Top" Width="772">
-            <TabItem x:Name="PropositionalTab" Header="Propositional Logic">
-                <Grid x:Name="PropositionalLayout" Background="#FFE5E5E5">
-                    <ListBox x:Name="SymbolListBox" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="10,0">
-                    </ListBox>
-                </Grid>
-            </TabItem>
-            <TabItem x:Name="PredicateTab" Header="Predicate Logic">
-                <Grid x:Name="PredicateLayout" Background="#FFE5E5E5"/>
-            </TabItem>
-            <TabItem x:Name="ModalTab" Header="Modal Logic">
-                <Grid x:Name="ModalLayout" Background="#FFE5E5E5"/>
-            </TabItem>
-        </TabControl>
-
+        <ListBox x:Name="SymbolListBox" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="10,0" MaxHeight="200">
+        </ListBox>
     </Grid>
 </Window>
