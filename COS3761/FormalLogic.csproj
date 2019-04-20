@@ -58,6 +58,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Domain\Constant.cs" />
     <Compile Include="Domain\Symbolic.cs" />
     <Compile Include="View\PropositionalSymbol.xaml.cs">
       <DependentUpon>PropositionalSymbol.xaml</DependentUpon>
